@@ -52,7 +52,7 @@ const Transfer = () => {
                                 value={formData.recipient}
                                 onChange={e => setFormData({ ...formData, recipient: e.target.value })}
                                 style={{
-                                    width: '100%',
+                                    width: '80%',
                                     padding: '0.8rem 1rem 0.8rem 3rem',
                                     background: 'rgba(255,255,255,0.05)',
                                     border: '1px solid rgba(255,255,255,0.1)',
@@ -75,7 +75,7 @@ const Transfer = () => {
                                 value={formData.amount}
                                 onChange={e => setFormData({ ...formData, amount: e.target.value })}
                                 style={{
-                                    width: '100%',
+                                    width: '80%',
                                     padding: '0.8rem 1rem 0.8rem 3rem',
                                     background: 'rgba(255,255,255,0.05)',
                                     border: '1px solid rgba(255,255,255,0.1)',
@@ -94,7 +94,7 @@ const Transfer = () => {
                             value={formData.note}
                             onChange={e => setFormData({ ...formData, note: e.target.value })}
                             style={{
-                                width: '100%',
+                                width: '80%',
                                 padding: '0.8rem',
                                 background: 'rgba(255,255,255,0.05)',
                                 border: '1px solid rgba(255,255,255,0.1)',
@@ -115,3 +115,4 @@ const Transfer = () => {
 };
 
 export default Transfer;
+
